@@ -1,0 +1,112 @@
+<!-- -->
+#homepage-body{
+  background-image: url("pictures/wallpaper-1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.menu-bar{
+  list-style-type: none;
+}
+.item-in-menu:link, .item-in-menu:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.item-in-menu:hover{
+  color: red;
+  border-color: red;
+}
+
+.item-in-menu{
+  align-content: center;
+  display: inline;
+  line-height: 1px;
+  font-size: 30px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border: 5px groove;
+  border-radius: 10px;
+  padding: 0.25px 3px;
+  color: white;
+
+}
+
+.menu-bar-table{
+  display: table;
+  margin: 0 auto;
+  margin-top: 25px;
+
+}
+
+#main-paragraph{
+  text-align: center;
+  float:none;
+  font-family: Georgia, serif;
+  height: auto;
+  background-color: #ffffff;
+  margin-left: 80px;
+  margin-right: 80px;
+  opacity: 80%;
+}
+
+#corner-logo,img{
+  width: 50px;
+  height: 50px;
+  float:left;
+}
+#teampage-body{
+  background-image: url("pictures/wallpaper-team.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#team-table{
+  border: 1;
+  background-color: black;
+  text-align: center;
+  font-family: Georgia, serif;
+  margin-left:50px ;
+  margin-right:50px ;
+  margin-top:50px ;
+  padding: 5px;
+  border-radius: 6px ;
+  border-color: white;
+
+}
+.col-team{
+  width:200px;
+  height: 8px;
+}
+tr:nth-child(odd){
+  background: #ae4e4efc;
+  color: white;
+  font-family: Georgia, serif;
+}
+tr:nth-child(even){
+  background: white;
+  font-family: Georgia, serif;
+}
+#standings-body{
+  background-image: url("pictures/Preimer-League-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#standings-table-picture{
+  width: 1100px;
+  height: 580px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#frame-window-team{
+  height: 600px;
+  width: 100%;
+  float: none;
+  scroll-behavior: smooth;
+  padding: 1px;
+  margin: 0;
+  border: 0px;
+
+}
